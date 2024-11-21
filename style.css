@@ -1,0 +1,340 @@
+
+@media (max-width: 1280px) {
+    body{
+        background-color: white;
+    } 
+}
+
+@media (max-width: 880px) {
+    body{
+        background-color: white; 
+    } 
+    .nav-middle{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            width: 45%;
+        }
+}
+
+@media (max-width: 580px){
+    body{
+        background-color: white;
+    }
+
+    .nav-middle{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            width: 45%;
+        }
+} 
+
+.navigation-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.nav-middle{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 45%;
+}
+
+.nav-right{
+    margin: 15px 0 0 auto;  
+}
+
+button{
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.nav-button1{
+    padding: 20px 30px;
+    margin-left: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-button2{
+    background-color: brown;
+    padding: 20px 30px;
+    margin-left: 5px;;
+    color: white;
+    font-size: 16px;
+}
+
+ /* Hover Effects  */
+
+a.nav-button2:hover{ background-color: chocolate;}
+a, a:hover{text-decoration: none;}
+a.ex1:visited, a.ex1:link {color: black;}
+a.ex1:hover {color:brown}
+a.ex1:active { color: brown;}
+a.ex2:hover, a.ex2:active, a.ex2:visited, a.ex2:link  {color: white;}
+a.ex2:active { color:rgb(198, 183, 183)}
+a.ex2:hover { color:rgb(198, 183, 183);}
+
+
+.nav-button-icon1{
+    width: 20px;
+    height: 15px;
+    padding-left: 5px;
+    background-color: none;
+}
+
+.nav-button-icon2{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+}
+
+.banner-border{
+    border: solid 2px red;
+    background-color: red;
+    margin: 5px;
+    
+}
+
+.banner-container{
+    background-image: url("https://d3ciwvs59ifrt8.cloudfront.net/94e52420-e143-4533-a3be-9de4a4b36768/103d780f-ee5f-46fb-b812-56b307d3a47d_h.jpg" );
+    display: flex;
+}
+
+.banner-left, .address-left{
+    width: 20%;
+    margin-right: auto;
+}
+.banner-right, .address-right{
+    width: 20%;
+    margin-left: auto;
+}
+
+.banner-middle-content{
+    background: rgb(255, 242, 242);
+    border: 1px solid #999;
+    margin: 100px 0;
+    color: black;
+    padding: 100px;
+    text-align: center;
+}
+
+h1.banner-middle-content{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+
+p{
+    font-size:25px;
+}
+  
+.address-middle-content{
+    display: flex;
+    padding: 60px; 
+    text-align: center;
+}
+  
+.address-middle-content1{
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+    width: 50%;
+    border: 1px solid #999;
+    background: white;
+
+}
+
+.address-middle-content2{
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+    width: 50%;
+    border: 1px solid #999;
+    background: white;
+    
+}
+
+.address-container{
+    display: flex;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-seamless-vector-pattern-with-cupcakes-pastry-concept_855620-1024.jpg?w=740");
+}
+
+.address-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.address-middle-content p{
+    font-size: 16px;
+}
+
+
+/* ****************************               footer container              ******************************* */
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: auto;
+}
+
+.contact{
+    border: 1px solid #999;
+    padding: 10px;
+    width: 270px;
+}
+
+.hours{
+    border: 1px solid #999;
+    padding: 10px;
+    width: 270px;
+}
+.navigation{
+    border: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 270px;
+
+}
+
+.nav-button3{
+    background-color: #e3dfdf; ;
+    padding: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.google-map {
+    border: solid 1px rgb(6, 202, 32);
+    width: 270px;
+
+}
+
+.google-map iframe { 
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border:none;  
+}
+
+.heading-text{ 
+    color: brown; 
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-container p{
+    font-size: 14px;
+}
+
+.copyrights, .copyrights p{
+ text-align: center;
+ font-size: 12px;
+}
+
+
+/* ------------------------------ contact us---------------------------------- */
+
+.contact-us-content{
+    background: rgb(255, 242, 242);
+    border: 1px solid #999;
+    margin: 100px 0;
+    color: black;
+    padding: 100px;
+    
+}
+
+/* Table Style  */
+
+.nav-button4{
+    background-color: brown;
+    padding: 20px 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-button4 td{
+text-align: center;
+}
+
+  td {
+    border: solid 1px #999;
+    padding: 10px 40px 20px 30px;
+  }
+
+  .btn-align{
+    text-align: center;
+  }
+/*  product containter */
+
+  .product-middle-content{
+    background: rgb(255, 242, 242);
+    border: solid 1px #999;
+    display: flex;
+    
+    margin: 100px 0;
+    padding: 100px;
+    color: black;
+    text-align: left;
+    height: auto;
+   
+    
+}
+
+.cake-types{
+    border: solid 1px #999;
+}
+
+.cake-types img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cake-types h1{
+    text-align: center;
+}
+
+ /* ************Button trasition ************** */
+
+ .nav-button2 {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+  
+  .nav-button2:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .cake-types img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    /* -webkit-transition: all 1s ease; */
+    }
+    
+  .cake-types img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
